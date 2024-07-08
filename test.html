@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --main-color: blue;
+        --secondary-color: red;
+      }
+      .header__logo {
+        color: var(--main-color);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">로고</div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a class="header_menu-item-a"></a></li>
+          <li class="header__menu-item"></li>
+          <li class="header__menu-item"></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article class="card card--dark">
+        <h2 class="card__title">제목</h2>
+        <div class="card__meta">
+          <span class="card__author">글쓴이</span>
+          <span class="card__date">작성일</span>
+        </div>
+        <p class="card__content">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+          et nemo magni soluta, amet, id dignissimos perferendis facilis ipsam
+          esse in eum vel accusantium ratione. Sit vitae nihil deserunt minima.
+        </p>
+        <button class="button button--primary button--large">
+          <span class="button__text">시작하기</span>
+        </button>
+      </article>
+    </main>
+    <footer></footer>
+  </body>
+</html>
